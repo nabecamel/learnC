@@ -7,8 +7,8 @@ int main(int argc, char **argv) {
 	return (1);
 }
 
-	printf(".globl _main\n");
-	printf("_main :\n");
+  printf(".globl _main\n");
+	printf("_main:\n");
 	printf(" mov x0, #%d\n", atoi(argv[1]));
 	printf(" ret\n");
 	return (0);
